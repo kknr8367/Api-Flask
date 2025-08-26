@@ -40,3 +40,9 @@ jobs:
        kubectl apply  -f deployment.yml
        kubectl apply -f service.yml
 
+    - name: minikube ip
+      run: |
+        minikube ip
+        kubectl get pods
+        kubectl get svc
+
