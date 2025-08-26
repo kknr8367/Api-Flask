@@ -1,11 +1,11 @@
 name: CI/CD Python Application
- 
+  
 on:
-  push:
-    branches: [main]
+ push:
+ workflow_dispatch:
  
 jobs:
-ci-cd:
+ ci-cd:
   runs-on: ubuntu-latest
   env:
    DOCKER_IMAGE: kknrs/flask
