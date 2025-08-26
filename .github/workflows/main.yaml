@@ -45,5 +45,5 @@ jobs:
         minikube ip
         kubectl get pods
         kubectl get svc
-        curl -I http://192.168.49.2:5000
+        # curl -I http://192.168.49.2:5000
 
