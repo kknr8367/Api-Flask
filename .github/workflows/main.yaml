@@ -1,8 +1,8 @@
 name: CI/CD Python Application
  
-push: main
-
-workflow_dispatch:
+on:
+  push:
+    branches: [main]
  
 jobs:
 ci-cd:
